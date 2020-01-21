@@ -1,0 +1,126 @@
+body {
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.container li {
+    float: left;
+    /* display: inline-block; */
+    list-style-type: none;
+}
+
+.container a {
+    display: block;
+    margin: 0 3px;
+    padding: 1px;
+    text-align: right;
+    text-decoration: none;
+    color: #727574;
+}
+
+.grid {
+    color: rgba(189, 192, 189, 0.925);
+    margin-top: 0.9%;
+    margin-left: 1-5%;
+    margin-right: 1.5%;
+}
+
+nav button {
+    color: white;
+    background: #05f;
+    height: 30px;
+    margin-top: 0.1%;
+}
+
+.goo-img {
+    margin: 100px 350px 20px 500px;
+}
+
+.query {
+    margin-left: 350px;
+    margin-bottom: 20px;
+}
+
+.query a {
+    text-decoration: none;
+    color: black;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    align-self: center;
+    height: 30px;
+    width: 500px;
+    border: 2px solid rgb(226, 220, 220);
+    border-radius: 30px;
+}
+
+.lang {
+    margin-left: 450px;
+}
+
+.search-button {
+    width: 120px;
+    padding: 1px 0 2px;
+    background-color: none;
+    margin-left: 150px;
+}
+
+.country {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    padding-left: 50px;
+    padding-top: 20px;
+    background-color: rgb(241, 236, 236);
+    height: 30px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: ivory;
+    border: 1px solid rgb(200, 199, 199);
+    border-bottom-style: none;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    margin-top: 0px;
+}
+
+.container-footer2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+footer ul {
+    background-color: rgb(241, 236, 236);
+    height: 40px;
+    padding-top: 10px;
+    border: 1px solid rgb(200, 199, 199);
+    ;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+footer li a {
+    display: inline;
+    position: left;
+    margin-left: 200px;
+    /* padding: 300px; */
+}
+
+.item {
+    flex: none;
+}
