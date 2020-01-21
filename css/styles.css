@@ -38,39 +38,50 @@ nav button {
 }
 
 .goo-img {
-    margin: 100px 350px 20px 500px;
+    margin: auto;
+    width: 50%;
 }
 
-.query {
-    margin-left: 350px;
-    margin-bottom: 20px;
+.goo-img img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.query a {
+.goo-img a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 input {
     display: block;
-    margin-bottom: 10px;
-    margin-left: 30px;
-    align-self: center;
-    height: 30px;
-    width: 500px;
+    width: 100%;
+    height: 25px;
     border: 2px solid rgb(226, 220, 220);
     border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+.goo-img .lang a {
+    text-decoration: none;
+    color: blue;
 }
 
 .lang {
-    margin-left: 450px;
+    width: 100%;
+    text-align: center;
 }
 
-.search-button {
-    width: 120px;
-    padding: 1px 0 2px;
+.goo-img button {
+    width: 50%;
+    display: block;
+    float: left;
+    clear: right;
     background-color: none;
-    margin-left: 150px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .country {
@@ -80,7 +91,6 @@ input {
     padding-top: 20px;
     background-color: rgb(241, 236, 236);
     height: 30px;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
     text-shadow: ivory;
     border: 1px solid rgb(200, 199, 199);
     border-bottom-style: none;
@@ -106,17 +116,17 @@ input {
 .container-footer {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgb(241, 236, 236);
     height: 40px;
     padding-top: 10px;
     border: 1px solid rgb(200, 199, 199);
-    ;
 }
 
 .container-footer a {
     margin-left: 10px;
     text-decoration: none;
+    text-align: center;
     color: rgb(102, 89, 89);
     padding: 3px;
 }
@@ -124,10 +134,10 @@ input {
 .container-footer-list1 {
     list-style-type: none;
     display: flex;
+    justify-content: flex-start;
 }
 
 .container-footer-list2 {
     list-style-type: none;
-    display: flex;
-    margin-left: 700px;
+    display: inline-flex;
 }
