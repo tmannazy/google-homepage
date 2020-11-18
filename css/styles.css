@@ -1,19 +1,114 @@
-body {
-    background-color: #fff;
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
 }
 
+.container .nav-two {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.container ul {
+	padding-top: 7px;
+}
+.nav-two ul {
+	margin-right: 10px;
+}
+
+.nav-two li,
+.nav-one li {
+	margin-right: 10px;
+	font-size: 1.1rem;
+}
 .container li {
-    float: left;
-    /* display: inline-block; */
-    list-style-type: none;
+	list-style: none;
+	display: inline;
 }
 
+.container div a {
+	text-decoration: none;
+	color: hsla(0, 0%, 0%, 87%);
+}
+
+.container div a:hover {
+	text-decoration: underline;
+}
+
+.nav-links i {
+	color: gray;
+	margin-right: 10px;
+	font-size: 1.4rem;
+}
+
+.nav-links button {
+	outline: none;
+	padding: 5px;
+	background-color: hsl(212, 88%, 53%);
+	color: hsl(0, 80%, 100%);
+	cursor: pointer;
+	border: none;
+	border-radius: 2px;
+	font-weight: 500;
+	width: 80px;
+	height: 30px;
+}
+
+.logo-img {
+	overflow: hidden;
+	margin: 85px auto 30px;
+}
+
+.logo-img img {
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.form-data i {
+	position: relative;
+	left: 460px;
+	top: 34px;
+	font-size: 17px;
+	color: rgb(219, 216, 216);
+}
+.form-data .mic {
+	position: relative;
+	left: 890px;
+	top: -60px;
+	font-size: 17px;
+	color: linear-gradient rgb(192, 86, 86);
+}
+
+.form-data input {
+	width: 35%;
+	padding: 15px;
+	display: block;
+	margin: 0 auto;
+	border-radius: 25px;
+	text-indent: 25px;
+	outline: none;
+	border: 1px solid rgb(230, 224, 224);
+}
+
+.form-data input:hover {
+	box-shadow: 3px 3px 15px -5px rgb(139, 138, 138);
+}
+
+/*
 .container a {
     display: block;
     margin: 0 3px;
@@ -26,7 +121,7 @@ body {
 .grid {
     color: rgba(189, 192, 189, 0.925);
     margin-top: 0.9%;
-    margin-left: 1-5%;
+    margin-left: 1-5%;rr
     margin-right: 1.5%;
 }
 
@@ -97,7 +192,7 @@ input {
 }
 
 
-/* .container-footer {
+.container-footer {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -111,7 +206,7 @@ input {
     justify-content: end;
     align-content: flex-end;
     flex-wrap: nowrap;
-} */
+}
 
 .container-footer {
     display: flex;
@@ -140,4 +235,4 @@ input {
 .container-footer-list2 {
     list-style-type: none;
     display: inline-flex;
-}
+} */

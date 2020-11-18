@@ -2,7 +2,9 @@
 <html>
 
 <head>
-    <title>Google</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google | Home</title>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="font/css/all.css">
 </head>
@@ -10,41 +12,61 @@
 <body>
     <header>
         <nav class="container">
-            <ul>
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-            </ul>
-            <a href="#"><i class="fas fa-th fa-2x grid"></i></a>
-            <button>Sign in</button>
+            <div class="nav-one">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+            <div class="nav-two">
+                <ul>
+                    <li><a href="#">Gmail</a></li>
+                    <li><a href="#">Images</a></li>
+                </ul>
+                <div class="nav-links">
+                    <i class="fas fa-th fa-1x grid"></i>
+                    <button>Sign in</button>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <div class="goo-img">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        <div class="">
-            <input type="text" name="search" id="box">
+<main>
+    <div class="logo-img">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google Image">
+    </div>
+    <div class="form-data">
+        <i class="fas fa-search"></i>
+        <form action="" method="GET">
+            <label for="query"></label>
+            <input type="text" name="query" id="query">
             <button class="search-button"><a href="#">Google Search</a></button>
             <button><a href="#">I'm feeling lucky</a></button>
-        </div>
-        <div class="lang">
-            Google offered in:
-            <a href="#">Hausa</a>
-            <a href="#">Igbo</a>
-            <a href="#">Ede Yoruba</a>
-            <a href="#">Nigerian Pidgin</a>
-        </div>
+        </form>
+        <i class="fas fa-microphone mic"></i>
+    </div>
+    <div class="lang">
+            <p>Google offered in:</p>
+            <ul>
+                <li><a href="#">Hausa</a></li>
+                <li><a href="#">Igbo</a></li>
+                <li><a href="#">Ede Yoruba</a></li>
+                <li><a href="#">Nigerian Pidgin</a></li>
+            </ul>
     </div>
 
-    <footer>
-        <div class="country">Nigeria</div c>
+</main>
+
+<footer>
+        <p class="country">Nigeria</p>
         <div class="container-footer">
-            <ul class="container-footer-list1">
+            <ul class="container-footer-list-one">
                 <li class="item"><a href="#">Advertising</a></li class="item">
                 <li><a href="#">Business</a></li>
                 <li><a href="#">About</a></li>
                 <li class="item-1"><a href="#">How Search works</a></li>
             </ul>
-            <ul class="container-footer-list2">
+            <ul class="container-footer-list-two">
                 <li class="item"><a href="#">Privacy</a></li>
                 <li class="item"><a href="#">Terms</a></li>
                 <li class="item"><a href="#">Settings</li>
