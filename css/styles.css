@@ -10,6 +10,10 @@ html {
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+main {
+	position: relative;
+	min-height: 75vh;
+}
 
 .container {
 	display: flex;
@@ -69,7 +73,7 @@ html {
 
 .logo-img {
 	overflow: hidden;
-	margin: 85px auto 30px;
+	margin: 85px auto 15px;
 }
 
 .logo-img img {
@@ -88,7 +92,7 @@ html {
 .form-data .mic {
 	position: relative;
 	left: 890px;
-	top: -60px;
+	top: -100px;
 	font-size: 17px;
 	color: linear-gradient rgb(192, 86, 86);
 }
@@ -108,131 +112,94 @@ html {
 	box-shadow: 3px 3px 15px -5px rgb(139, 138, 138);
 }
 
-/*
-.container a {
-    display: block;
-    margin: 0 3px;
-    padding: 1px;
-    text-align: right;
-    text-decoration: none;
-    color: #727574;
+.query-submit {
+	display: flex;
+	justify-content: center;
 }
 
-.grid {
-    color: rgba(189, 192, 189, 0.925);
-    margin-top: 0.9%;
-    margin-left: 1-5%;rr
-    margin-right: 1.5%;
+.query-submit button {
+	margin: 30px 10px 0;
+	padding: 9px;
+	border-radius: 5px;
+	border: 1px solid rgb(243, 242, 242);
+	background: rgb(245, 241, 241);
+	outline: none;
 }
 
-nav button {
-    color: white;
-    background: #05f;
-    height: 30px;
-    margin-top: 0.1%;
+.query-submit a {
+	text-decoration: none;
+	color: rgb(148, 144, 144);
 }
 
-.goo-img {
-    margin: auto;
-    width: 50%;
+.query-submit .selected:hover {
+	border: 1px solid rgb(207, 207, 207);
 }
 
-.goo-img img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.selected a:hover {
+	color: rgb(63, 57, 57);
 }
 
-.goo-img a {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
+.language-types {
+	display: flex;
+	justify-content: center;
+	margin: 15px 0 0;
 }
 
-input {
-    display: block;
-    width: 100%;
-    height: 25px;
-    border: 2px solid rgb(226, 220, 220);
-    border-radius: 30px;
-    margin-bottom: 10px;
+.language-head {
+	/* margin-right: 5px; */
+}
+.language-group {
+	display: inline;
+	margin-left: 5px;
 }
 
-.goo-img .lang a {
-    text-decoration: none;
-    color: blue;
+.language-types li {
+	display: inline;
+	list-style: none;
+	margin: 3px;
 }
 
-.lang {
-    width: 100%;
-    text-align: center;
+.language-group a {
+	text-decoration: none;
+}
+.language-group a:hover {
+	text-decoration: underline;
 }
 
-.goo-img button {
-    width: 50%;
-    display: block;
-    float: left;
-    clear: right;
-    background-color: none;
-    margin-bottom: 10px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	color: rgb(128, 126, 126);
+	font-size: 1.2rem;
 }
 
 .country {
-    margin-top: 50px;
-    margin-bottom: 0px;
-    padding-left: 50px;
-    padding-top: 20px;
-    background-color: rgb(241, 236, 236);
-    height: 30px;
-    text-shadow: ivory;
-    border: 1px solid rgb(200, 199, 199);
-    border-bottom-style: none;
-}
-
-
-.container-footer {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: start;
-    margin-top: 0px;
-}
-
-.container-footer2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    align-content: flex-end;
-    flex-wrap: nowrap;
+	padding: 10px 30px;
+	background: rgb(240, 237, 237);
+	border: 1px solid rgb(223, 221, 221);
+	border-bottom: none;
 }
 
 .container-footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: rgb(241, 236, 236);
-    height: 40px;
-    padding-top: 10px;
-    border: 1px solid rgb(200, 199, 199);
+	display: flex;
+	justify-content: space-between;
+	padding: 10px 30px;
+	background: rgb(240, 237, 237);
+	border: 1px solid rgb(207, 207, 207);
+}
+
+.container-footer li {
+	display: inline;
+	margin-right: 25px;
 }
 
 .container-footer a {
-    margin-left: 10px;
-    text-decoration: none;
-    text-align: center;
-    color: rgb(102, 89, 89);
-    padding: 3px;
+	text-decoration: none;
+	color: rgb(128, 126, 126);
 }
 
-.container-footer-list1 {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-start;
+.container-footer a:hover {
+	text-decoration: underline;
+	color: rgb(128, 126, 126);
 }
-
-.container-footer-list2 {
-    list-style-type: none;
-    display: inline-flex;
-} */

@@ -40,39 +40,47 @@
         <form action="" method="GET">
             <label for="query"></label>
             <input type="text" name="query" id="query">
-            <button class="search-button"><a href="#">Google Search</a></button>
-            <button><a href="#">I'm feeling lucky</a></button>
+            <div class="query-submit">
+                <button class="selected"><a href="#">Google Search</a></button>
+                <button class="selected"><a href="#">I'm Feeling Lucky</a></button>
+            </div>
         </form>
         <i class="fas fa-microphone mic"></i>
     </div>
-    <div class="lang">
-            <p>Google offered in:</p>
-            <ul>
-                <li><a href="#">Hausa</a></li>
-                <li><a href="#">Igbo</a></li>
-                <li><a href="#">Ede Yoruba</a></li>
-                <li><a href="#">Nigerian Pidgin</a></li>
-            </ul>
+    <div class="language-types">
+            <p class="language-head">Google offered in:</p>
+            <div class="language-group">
+                <ul>
+                    <li><a href="#">Hausa</a></li>
+                    <li><a href="#">Igbo</a></li>
+                    <li><a href="#">Ede Yoruba</a></li>
+                    <li><a href="#">Nigerian Pidgin</a></li>
+                </ul>
+            </div>
     </div>
 
-</main>
 
-<footer>
-        <p class="country">Nigeria</p>
-        <div class="container-footer">
-            <ul class="container-footer-list-one">
-                <li class="item"><a href="#">Advertising</a></li class="item">
-                <li><a href="#">Business</a></li>
-                <li><a href="#">About</a></li>
-                <li class="item-1"><a href="#">How Search works</a></li>
-            </ul>
-            <ul class="container-footer-list-two">
-                <li class="item"><a href="#">Privacy</a></li>
-                <li class="item"><a href="#">Terms</a></li>
-                <li class="item"><a href="#">Settings</li>
-            </ul>
-        </div>
-    </footer>
+        <footer>
+            <p class="country">Nigeria</p>
+            <div class="container-footer">
+                <div>
+                    <ul>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">How Search works</a></li>
+                    </ul>
+                </div>
+                <div class="hello">
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </main>
 </body>
 
 </html>
