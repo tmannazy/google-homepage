@@ -10,9 +10,10 @@ html {
 	font-size: 12px;
 	font-family: Arial, Helvetica, sans-serif;
 }
+
 main {
 	position: relative;
-	min-height: 75vh;
+	min-height: 100vh;
 }
 
 .container {
@@ -29,6 +30,7 @@ main {
 .container ul {
 	padding-top: 7px;
 }
+
 .nav-two ul {
 	margin-right: 10px;
 }
@@ -38,6 +40,7 @@ main {
 	margin-right: 10px;
 	font-size: 1.1rem;
 }
+
 .container li {
 	list-style: none;
 	display: inline;
@@ -89,6 +92,7 @@ main {
 	font-size: 17px;
 	color: rgb(219, 216, 216);
 }
+
 .form-data .mic {
 	position: relative;
 	left: 890px;
@@ -145,9 +149,6 @@ main {
 	margin: 15px 0 0;
 }
 
-.language-head {
-	/* margin-right: 5px; */
-}
 .language-group {
 	display: inline;
 	margin-left: 5px;
@@ -162,6 +163,7 @@ main {
 .language-group a {
 	text-decoration: none;
 }
+
 .language-group a:hover {
 	text-decoration: underline;
 }
@@ -202,4 +204,27 @@ footer {
 .container-footer a:hover {
 	text-decoration: underline;
 	color: rgb(128, 126, 126);
+}
+
+@media only screen and (max-width: 400px) {
+	.form-data i {
+		display: none;
+	}
+
+	.form-data input {
+		width: 75%;
+	}
+
+	.language-types {
+		margin-top: 40px;
+	}
+
+	.container-footer {
+		display: block;
+		flex-wrap: wrap;
+	}
+
+	.container-footer .how-search {
+		display: none;
+	}
 }
