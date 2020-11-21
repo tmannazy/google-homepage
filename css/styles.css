@@ -206,7 +206,7 @@ footer {
 	color: rgb(128, 126, 126);
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 600px) {
 	.form-data i {
 		display: none;
 	}
